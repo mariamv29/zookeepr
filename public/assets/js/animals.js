@@ -37,7 +37,7 @@ const getAnimals = (formData = {}) => {
   });
 
   console.log(queryUrl);
-  fetçch(queryUrl)
+  fetch(queryUrl)
     .then((response) => {
       if (!response.ok) {
         return alert("Error: " + response.statusText);
